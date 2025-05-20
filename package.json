@@ -17,7 +17,7 @@
     "dtos": "cd apps/backend && node ./generate-dtos.js && cd ../..",
     "dev": "pnpm prisma:generate && pnpm prisma:migrate && pnpm prisma:push && pnpm backend:dev && pnpm frontend:dev"
   },
-  "keywords": [],
+  "keywords": [ ],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.7.0"
